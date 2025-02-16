@@ -33,7 +33,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 ## 2. Tailwind CSS Integration
 
-- [ ] **Install Tailwind CSS and Dependencies**
+- [x] **Install Tailwind CSS and Dependencies**
   - Run: `npm install tailwindcss postcss autoprefixer`
 - [ ] **Initialize Tailwind CSS**
   - Run: `npx tailwindcss init`
