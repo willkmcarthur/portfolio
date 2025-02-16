@@ -60,7 +60,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
       pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
     });
     ```
-- [ ] **Create a Sample MDX File**
+- [x] **Create a Sample MDX File**
   - Add a sample file in `/content/sample.mdx` to verify MDX processing.
 
 ---
