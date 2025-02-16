@@ -9,7 +9,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 - [x] **Initialize Next.js with TypeScript**
   - Run: `npx create-next-app@latest --typescript`
   - Verify the project structure is created.
-- [ ] **Set Up Version Control**
+- [x] **Set Up Version Control**
   - Initialize a Git repository.
   - Create initial commit.
   - Set up branch structure (e.g., `main` and `develop`).
