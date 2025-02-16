@@ -13,19 +13,40 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
   - Initialize a Git repository.
   - Create initial commit.
   - Set up branch structure (e.g., `main` and `develop`).
-- [ ] **Establish Folder Structure**
+- [x] **Establish Folder Structure**
   - Create folders:
     - `/pages` – for route-based components.
     - `/components` – for reusable UI components.
     - `/styles` – for global styles and theme configuration.
     - `/content` – for MDX files (blog posts, project details).
-- [ ] **Configure TypeScript**
+- [x] **Configure TypeScript**
   - Review and adjust `tsconfig.json` as necessary.
   - Install any needed TypeScript type definitions.
+- [x] **Set Up ESLint and Prettier**
+  - Install ESLint, Prettier, and related plugins.
+  - Configure `.eslintrc.json` and `.prettierrc`.
+  - Add a formatting script to `package.json`.
+- [x] **Add `.gitignore`**
+  - Exclude unnecessary files (e.g., `node_modules`, `.env`).
 
 ---
 
-## 2. MDX Integration for Content Management
+## 2. Tailwind CSS Integration
+
+- [ ] **Install Tailwind CSS and Dependencies**
+  - Run: `npm install tailwindcss postcss autoprefixer`
+- [ ] **Initialize Tailwind CSS**
+  - Run: `npx tailwindcss init`
+- [ ] **Configure `tailwind.config.js`**
+  - Set up content paths for PurgeCSS.
+- [ ] **Add Tailwind to Global Styles**
+  - Update `/styles/globals.css` with Tailwind directives.
+- [ ] **Test Tailwind CSS**
+  - Add utility classes to a sample component to verify setup.
+
+---
+
+## 3. MDX Integration for Content Management
 
 - [ ] **Install MDX Packages**
   - Install `@next/mdx` and `@mdx-js/loader`.
@@ -44,7 +65,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 ---
 
-## 3. Theming & Global State Management
+## 4. Theming & Global State Management
 
 - [ ] **Set Up React Context for Theming**
   - Create a new file (e.g., `/components/ThemeContext.tsx`) to define a ThemeContext.
@@ -52,13 +73,15 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 - [ ] **Develop Theme Toggle Component**
   - Create `/components/ThemeToggle.tsx`.
   - Implement a button that uses ThemeContext to switch themes.
+- [ ] **Persist Theme Preference**
+  - Save the user's theme preference in `localStorage`.
 - [ ] **Integrate Global Styles for Theming**
   - Configure CSS variables or update Tailwind CSS config to support dark/light themes.
   - Ensure all components use these variables/classes for colors and backgrounds.
 
 ---
 
-## 4. Design, Styling & Accessibility
+## 5. Design, Styling & Accessibility
 
 - [ ] **Finalize the Design System**
   - Define color palette, typography, spacing, and layout.
@@ -77,10 +100,12 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
   - Add ARIA labels to all interactive elements (buttons, links, forms).
   - Ensure keyboard navigation works on all components.
   - Verify color contrast ratios meet accessibility standards.
+- [ ] **Test Responsiveness**
+  - Test the website on multiple screen sizes (mobile, tablet, desktop).
 
 ---
 
-## 5. Core Page Development (Phase 1)
+## 6. Core Page Development (Phase 1)
 
 ### Home / Landing Page
 - [ ] **Build the Hero Section**
@@ -108,24 +133,28 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 ---
 
-## 6. SEO & Meta Configuration
+## 7. SEO & Meta Configuration
 
 - [ ] **Install SEO Library**
   - Install `next-seo` or a similar library.
 - [ ] **Configure Basic Meta Tags**
   - Add title, description, and open graph tags in `_app.tsx` or `_document.tsx`.
+- [ ] **Add Canonical URLs**
+  - Configure canonical URLs to avoid duplicate content issues.
 - [ ] **Optional: Prepare Sitemap & Robots.txt**
   - Generate a sitemap and create a `robots.txt` (can be added later if needed).
 
 ---
 
-## 7. Error Tracking & Performance Optimization
+## 8. Error Tracking & Performance Optimization
 
 - [ ] **Integrate Sentry for Error Tracking**
   - Install Sentry SDK.
   - Configure Sentry for both development and production.
 - [ ] **Set Up CI/CD Pipeline**
   - Configure GitHub Actions (or similar) to run automated Lighthouse scoring.
+- [ ] **Optimize Images and Assets**
+  - Use `next/image` for optimized images.
 - [ ] **Verify Cache Headers for Static Assets**
   - Check hosting configuration (Vercel/Netlify) to ensure proper cache-control headers.
 - [ ] **Plan for Incremental Static Regeneration (ISR)**
@@ -133,7 +162,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 ---
 
-## 8. Deployment & Hosting
+## 9. Deployment & Hosting
 
 - [ ] **Select Hosting Platform**
   - Decide between Vercel or Netlify (recommended for Next.js).
@@ -149,10 +178,12 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 ---
 
-## 9. Documentation & Future Enhancements
+## 10. Documentation & Future Enhancements
 
 - [ ] **Create Developer Documentation**
   - Document the project structure, coding standards, and setup instructions.
+- [ ] **Add a README.md**
+  - Include project overview, setup instructions, and contribution guidelines.
 - [ ] **Outline Future Enhancement Plans**
   - List Phase 2 tasks: Blog/Articles, Volunteer & Community, Hobbies, Testimonials.
   - Document ideas for additional features (e.g., RSS feed, social feed integrations).
