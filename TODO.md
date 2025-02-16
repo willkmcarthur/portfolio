@@ -50,7 +50,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
 
 - [x] **Install MDX Packages**
   - Install `@next/mdx` and `@mdx-js/loader`.
-- [ ] **Configure Next.js for MDX**
+- [x] **Configure Next.js for MDX**
   - Update `next.config.js` with the following:
     ```js
     const withMDX = require('@next/mdx')({
