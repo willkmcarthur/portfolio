@@ -37,7 +37,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
   - Run: `npm install tailwindcss postcss autoprefixer`
 - [x] **Initialize Tailwind CSS**
   - Run: `npx tailwindcss init`
-- [ ] **Configure `tailwind.config.js`**
+- [x] **Configure `tailwind.config.js`**
   - Set up content paths for PurgeCSS.
 - [ ] **Add Tailwind to Global Styles**
   - Update `/styles/globals.css` with Tailwind directives.
