@@ -41,7 +41,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
   - Set up content paths for PurgeCSS.
 - [x] **Add Tailwind to Global Styles**
   - Update `/styles/globals.css` with Tailwind directives.
-- [ ] **Test Tailwind CSS**
+- [x] **Test Tailwind CSS**
   - Add utility classes to a sample component to verify setup.
 
 ---
