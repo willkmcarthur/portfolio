@@ -39,7 +39,7 @@ This file outlines all the micro tasks to be completed for Phase 1 of the portfo
   - Run: `npx tailwindcss init`
 - [x] **Configure `tailwind.config.js`**
   - Set up content paths for PurgeCSS.
-- [ ] **Add Tailwind to Global Styles**
+- [x] **Add Tailwind to Global Styles**
   - Update `/styles/globals.css` with Tailwind directives.
 - [ ] **Test Tailwind CSS**
   - Add utility classes to a sample component to verify setup.
