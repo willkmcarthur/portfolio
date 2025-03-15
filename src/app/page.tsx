@@ -1,12 +1,12 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white dark:bg-gray-900">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">
-        Welcome to My Portfolio
+    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100">
+      <h1 className="text-5xl font-bold text-purple-600 mb-4">
+        Hello World!
       </h1>
-      <p className="text-lg text-gray-600 dark:text-gray-300">
-        Built with Next.js and Tailwind CSS
+      <p className="text-2xl text-green-500">
+        Testing Tailwind CSS
       </p>
-    </main>
+    </div>
   );
 }
